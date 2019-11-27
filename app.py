@@ -1,21 +1,21 @@
 import pickle
 
-with open('final_files','rb') as file:
+with open('pickle/final_files','rb') as file:
     final_files = pickle.load(file)
 
-with open('y_tsne','rb') as file:
+with open('pickle/y_tsne','rb') as file:
     y_tsne = pickle.load(file)
 
-with open('y_umap','rb') as file:
+with open('pickle/y_umap','rb') as file:
     y_umap = pickle.load(file)
 
-with open('pca_remapped_colors','rb') as file:
+with open('pickle/pca_remapped_colors','rb') as file:
     pca_remapped_colors = pickle.load(file)
 
-with open('tsne_remapped_colors','rb') as file:
+with open('pickle/tsne_remapped_colors','rb') as file:
     tsne_remapped_colors = pickle.load(file)
 
-with open('umap_remapped_colors','rb') as file:
+with open('pickle/umap_remapped_colors','rb') as file:
     umap_remapped_colors = pickle.load(file)
 
 #===============================================
