@@ -139,6 +139,7 @@ from dash.dependencies import Input, Output
 
 app = dash.Dash(__name__)
 app.css.append_css({'external_url': '/assets/style.css'})
+server = app.server 
 
 colors = {
     'text':'#ff0000',
@@ -180,4 +181,4 @@ def multi_output(input_data):
     return title, heading, body
 
 if __name__ == '__main__':
-    app.run_server(port=4050)
+    app.run_server()
