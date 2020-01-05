@@ -20,9 +20,10 @@ with open('pickle/umap_remapped_colors','rb') as file:
 
 #===============================================
 import plotly.graph_objs as go
-from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
+# from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 
-init_notebook_mode(connected=True)
+
+# init_notebook_mode(connected=True)
 
 y_graph = y_tsne
 
